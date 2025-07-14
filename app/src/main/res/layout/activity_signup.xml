@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <!--    CUERPO    -->
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_climber"/>
+
+    <TextView
+        android:id="@+id/tvMallorcaClimb"
+        style="@style/viewCustom"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/app_name"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        style="@style/viewCustom"
+        android:padding="15dp"
+        android:hint="@string/name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/bg_borde_redondo_1dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/viewCustom"
+        android:padding="15dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/bg_borde_redondo_1dp"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/viewCustom"
+        android:padding="15dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:background="@drawable/bg_borde_redondo_1dp"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/lyTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/cbAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/acept"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms"
+            android:textSize="10sp"
+            android:layout_marginStart="5dp"
+            android:onClick="goTerm"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/btnSignup"
+        style="@style/viewCustom"
+        android:text="@string/signup"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:onClick="signup"
+        android:background="@drawable/bg_btn_custom2" />
+
+    <TextView
+        android:id="@+id/tvvolverLogin"
+        style="@style/viewCustom"
+        android:padding="5dp"
+        android:text="@string/volverLogin"
+        android:onClick="volverLogin"
+        android:textAlignment="textEnd"
+        android:textStyle="italic"
+        tools:ignore="ObsoleteLayoutParam" />
+
+    <TextView
+        android:id="@+id/btnSingGoogle"
+        style="@style/viewCustom"
+        android:text="@string/google"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_btn_custom"
+        android:drawablePadding="15dp"
+        android:onClick="callSignInGoogle"
+        app:drawableStartCompat="@drawable/google" />
+
+    <TextView
+        android:id="@+id/btnSingFacebook"
+        style="@style/viewCustom"
+        android:text="@string/facebook"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/bg_btn_custom"
+        android:drawablePadding="15dp"
+        android:onClick="callSignInFacebook"
+        app:drawableStartCompat="@drawable/facebook" />
+
+</LinearLayout>

@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">MallorcaClimb</string>
+
+    <string name="empty"> </string>
+
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="surname">Apellido</string>
+
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="signup">REGÍSTRATE</string>
+    <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="newUser">¿Usuario Nuevo?</string>
+    <string name="volverLogin">Volver a la identificación</string>
+    <string name="acept">He leído y acepto las</string>
+    <string name="terms">condiciones de uso</string>
+    <string name="resetPassword">Enviar Contraseña</string>
+
+    <string name="empty_email">Introduce un email</string>
+    <string name="invalid_email">Parece que el email está mal escrito</string>
+
+    <string name="google">ACCEDER CON GOOGLE</string>
+    <string name="facebook">ACCEDER CON FACEBOOK</string>
+
+    <string name="bar_tittle_term">Términos y condiciones</string>
+    <string name="term1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="term2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="term3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="main_seeker">¿Buscas algo en concreto?</string>
+    <string name="main_search">Buscar...</string>
+    <string name="main_school_list">Listado de escuelas de escalada</string>
+    <string name="main_School_button">VER TODAS</string>
+
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_download">Descargas</string>
+    <string name="menu_learn_mountain">Aprende montaña</string>
+    <string name="menu_settings">Ajustes</string>
+    <string name="menu_close_session">Cerrar Sesión</string>
+
+    <string name="bar_tittle_settings">Ajustes</string>
+    <string name="settings_title1">Modificar perfil</string>
+    <string name="settings_subtitle1">Modifica tu información personal</string>
+    <string name="settings_name">Introduce tu nombre</string>
+    <string name="settings_button">Cambiar</string>
+    <string name="settings_title2">Descargas</string>
+    <string name="settings_subtitle2">Revisa tus croquis descargados</string>
+    <string name="settings_title3">Idioma</string>
+    <string name="settings_subtitle3">Selecciona tu idioma</string>
+    <string name="settings_lenguage1">Español</string>
+    <string name="settings_lenguage2">English</string>
+    <string name="settings_title4">Contacta</string>
+    <string name="settings_subtitle4">¿Tienes información que quieras aportarnos?</string>
+    <string name="settings_contact_info">Escribe aquí tu sugerencia</string>
+    <string name="settings_contact_button">Enviar</string>
+    <string name="settings_title5">Cerrar sesión</string>
+    <string name="settings_subtitle5">Cierra tu sesión</string>
+    <string name="settings_title6">Borrar cuenta</string>
+    <string name="settings_subtitle6">Borra tu cuenta y toda la información</string>
+
+    <string name="bar_tittle_profile">Perfil Usuario</string>
+    <string name="profile_medals">Medallas/logros</string>
+    <string name="profile_characteristics_1">Metros máximos escalados:</string>
+    <string name="profile_characteristics_2">Dificultad máxima escalada:</string>
+    <string name="profile_characteristics_3">Número total de vías escaladas:</string>
+    <string name="profile_number_routes">Ascensiones totales</string>
+    <string name="profile_no_routes">¡¡Comienza a escalar!!</string>
+
+    <string name="bar_tittle_medal">Medallas/logros</string>
+    <string name="medal_metters">Metros:</string>
+    <string name="medal_metters_1">200m</string>
+    <string name="medal_metters_2">500m</string>
+    <string name="medal_metters_3">1000m</string>
+    <string name="medal_metters_4">2000m</string>
+    <string name="medal_metters_5">3000m</string>
+    <string name="medal_metters_6">5000m</string>
+    <string name="medal_metters_7">8000m</string>
+    <string name="medal_metters_8">12000m</string>
+    <string name="medal_difficulty">Dificultad:</string>
+    <string name="medal_difficulty_1">5a</string>
+    <string name="medal_difficulty_2">6a</string>
+    <string name="medal_difficulty_3">6c</string>
+    <string name="medal_difficulty_4">7a</string>
+    <string name="medal_difficulty_5">7b+</string>
+    <string name="medal_difficulty_6">8a</string>
+    <string name="medal_difficulty_7">8b</string>
+    <string name="medal_difficulty_8">8c</string>
+    <string name="medal_others">Otros:</string>
+    <string name="medal_others_1">Deportiveta</string>
+    <string name="medal_others_2">Clasiqueta</string>
+    <string name="medal_others_3">Bloquero</string>
+    <string name="medal_others_4">Local</string>
+
+    <string name="bar_tittle_school_list">Listado Escuelas</string>
+    <string name="schoolList_sport">ESCALADA DEPORTIVA</string>
+    <string name="schoolList_block">ESCALADA BLOQUE</string>
+
+    <string name="school_sector">SECTORES</string>
+    <string name="school_information">INFORMACIÓN ESCUELA</string>
+    <string name="school_info">Información general:</string>
+    <string name="school_description">Descripción:</string>
+    <string name="school_map">Mapa:</string>
+    <string name="school_location">Pulsa para ir la LOCALIZACIÓN del parking</string>
+
+    <string name="sector_wall">MURO DE ESCALADA</string>
+
+    <string name="routes_comments">Comentarios:</string>
+    <string name="routes_no_comment">¡Se el primero en comentar!</string>
+    <string name="routes_description_comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+    <string name="routes_button_comment">COMENTAR</string>
+
+    <string name="bar_tittle_learn_mountain">Aprende Montaña</string>
+
+    <string name="bar_tittle_comment">Editar comentario</string>
+    <string name="comment_comment">Escribir comentario:</string>
+    <string name="comment_do_comment">Escribe aquí tu comentario</string>
+
+    <string name="alertActivationGPSTitle">Permitir acceso a ubicación</string>
+    <string name="alertActivationGPSDescription">Si desea saber la ubicación de los sectores de escalada debe activar el GPS</string>
+    <string name="ignoreActivation">Ignorar</string>
+    <string name="aceptActivation">Activar</string>
+
+    <string name="map_tittle"></string>
+
+    <string name="learnMountain_header">Este es el espacio donde aprenderás todo aquello que es necesario para convertirte en un buen amante de la montaña</string>
+    <string name="learnMountain_articulos">Artículos:</string>
+    <string name="learnMountain_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </string>
+
+</resources>

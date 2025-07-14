@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsActivity">
+
+    <!--    CABECERA    -->
+    <RelativeLayout
+        style="@style/headerCustom">
+        <View
+            android:id="@+id/icon_header"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_flecha_atras"
+            android:onClick="callSignupActivity"/>
+        <TextView
+            style="@style/textHeaderCustom"
+            android:layout_toEndOf="@+id/icon_header"
+            android:layout_centerInParent="true"
+            android:text="@string/bar_tittle_term"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </RelativeLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+    <!--    CUERPO    -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/term1"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/term2"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/term3"
+        android:textSize="12sp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_profile"
+            android:icon="@drawable/ic_perfil"
+            android:title="@string/menu_profile"/>
+        <item android:id="@+id/nav_item_download"
+            android:icon="@drawable/ic_flecha_descarga"
+            android:title="@string/menu_download"/>
+        <item android:id="@+id/nav_item_learn_mountain"
+            android:icon="@drawable/ic_bombilla"
+            android:title="@string/menu_learn_mountain"/>
+        <item android:id="@+id/nav_item_main_settings"
+            android:icon="@drawable/ic_ajustes"
+            android:title="@string/menu_settings"/>
+        <item android:id="@+id/nav_item_main_close_session"
+            android:icon="@drawable/ic_flecha_atras"
+            android:title="@string/menu_close_session"/>
+    </group>
+</menu>

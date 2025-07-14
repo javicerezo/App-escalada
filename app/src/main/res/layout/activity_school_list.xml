@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SchoolListActivity"
+    android:orientation="vertical">
+
+    <!--    CABECERA    -->
+    <RelativeLayout
+        style="@style/headerCustom">
+        <View
+            android:id="@+id/icon_header"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/ic_flecha_atras"
+            android:onClick="callMainActivity"/>
+        <TextView
+            style="@style/textHeaderCustom"
+            android:layout_toEndOf="@+id/icon_header"
+            android:layout_centerInParent="true"
+            android:text="@string/bar_tittle_school_list"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </RelativeLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:background="@color/black"/>
+
+    <!--    CUERPO    -->
+
+    <LinearLayout
+        style="@style/viewCustom"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolList_sport"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/architects_daughter"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schoolList_block"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:fontFamily="@font/architects_daughter"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/black"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_list_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <!--    RELLENAR DINÁMICAMENTE CON CAR_SCHOOL_LIST.XML  -->
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

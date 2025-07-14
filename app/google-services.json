@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558586233585",
+    "project_id": "proyectoilerna-ec1ab",
+    "storage_bucket": "proyectoilerna-ec1ab.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558586233585:android:dfb2210ef0806e7faf5f50",
+        "android_client_info": {
+          "package_name": "com.example.proyectoilerna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA69K7y3yn1W2ENv2vIXaDVHZV--wHljzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
