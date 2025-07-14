@@ -1,7 +1,7 @@
 # Portafolio desarrollador web
 ![Captura del proyecto](https://raw.githubusercontent.com/javicerezo/App-escalada/master/src/main/res/drawable/f14_xml_login.png)
 
-## Ejemplo en vivo
+## Descarga
 - [Haz clic para descargar el fichero de instalación](https://drive.google.com/file/d/1axKHQqaVKZIQBdXgu9C8lsRJ90lRSAs3/view) 🚀
 
 ## Descripción 📑
@@ -27,8 +27,7 @@ Si quieres hechar un vistazo al proyecto, te recomiendo:
 [![Correo](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](<mailto:jc.webmob@gmail.com>)
 
 ## Instalación 
-Este proyecto no necesita de instalación. Simplemente, haz doble click en el enlace del ejemplo en vivo o descargalo, y ejecuta el .html.
-Ten en cuenta que para poder hacer cualquier tipo de modificación en los .sass o en el .js, primero, deberás ejecutar el comando "npx gulp watchArchivos" del gulpfile.js
+Simplemente, haz click en el enlace de arriba, descargalo e instala el fichero 'apk' en tu móvil Android. Después ya podrás usar la app con normalidad.
   
 ## Licencia 📄
 MIT Public License v3.0
