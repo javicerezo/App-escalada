@@ -1,6 +1,6 @@
 # Portafolio desarrollador web
-![Captura del proyecto](https://raw.githubusercontent.com/javicerezo/App-escalada/master/src/main/res/drawable/f14_xml_login.png)
-
+![Captura del proyecto](https://github.com/javicerezo/App-escalada/blob/master/app/src/main/res/drawable/f14_xml_login.PNG)
+app/src/main/res/drawable/f14_xml_login.PNG
 ## Descarga
 - [Haz clic para descargar el fichero de instalación](https://drive.google.com/file/d/1axKHQqaVKZIQBdXgu9C8lsRJ90lRSAs3/view) 🚀
 
@@ -16,8 +16,8 @@ Aplicación para sistemas operativos Android sobre escalada (versión Beta). Con
 ## Vista previa del proyecto
 Si quieres hechar un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto](https://raw.githubusercontent.com/javicerezo/App-escalada/master/src/main/res/drawable/f24_xml_Maps.PNG)
-![Captura del proyecto](https://raw.githubusercontent.com/javicerezo/App-escalada/master/src/main/res/drawable/f25_xml_learnMountain.PNG)
+![Captura del proyecto](https://github.com/javicerezo/App-escalada/blob/master/app/src/main/res/drawable/f24_xml_Maps.PNG)
+![Captura del proyecto](https://github.com/javicerezo/App-escalada/blob/master/app/src/main/res/drawable/f25_xml_learnMountain.PNG)
 
 ## Autor ✒️
 **JAVI CEREZO** 
